@@ -29,6 +29,10 @@ p {
     color: #ffffff;
 }
 
+.section-noPadding{
+    padding:0px;
+}
+
 .desc{
     font-size:18px;
 }
@@ -86,3 +90,30 @@ p {
      flex-direction: column; /* Makes content in div to flow under instead of side by side*/
 }
 
+.btn {  
+  border: medium none;
+  border-radius: 0em;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.8571em;
+  font-weight: 400;
+  line-height: 1.35em;
+  padding: 11px 22px;
+}
+
+.landing-header {
+  background-image: url(../img/bg11.jpg);
+  background-size: cover;
+  min-height: 70vh;
+}
+
+.landing-header .motto {
+  padding-top: 20%;
+  text-align: right;
+  z-index: 3;
+}
+
+.text-shadow {
+  color: #ffffff;
+  text-shadow: -1px 2px 2px rgb(38, 38, 38);
+}
