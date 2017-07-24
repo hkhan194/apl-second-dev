@@ -1,0 +1,88 @@
+.noRowGap{
+   margin-bottom: 0 !important;
+}
+
+.carousel img {  
+  min-width: 100%;
+  height: 950px;
+}
+
+i{
+    color: #27ae60;
+}
+
+p {
+  font-weight: lighter;
+  line-height: 1.5em;
+}
+
+.section-grey{
+    background-color: #eeeeee;
+}
+
+.section-white{
+    background-color: #ffffff;
+}
+
+.section-green{
+    background-color: #27ae60;
+    color: #ffffff;
+}
+
+.desc{
+    font-size:18px;
+}
+
+.carousel-caption {
+  bottom: 50%;
+  color: #fff;
+  left: 15%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  position: absolute;
+  right: 15%;
+  text-align: left;
+  z-index: 10;
+}
+
+.page-header.page-header-small {
+  height: 20vh;
+  max-height: 440px;
+}
+
+.profile-page .page-header {
+  min-height: 400px;
+}
+
+.profile-page .description, .profile-page .category {
+  text-align: left;
+}
+
+.profile-page h5.description {
+  margin: 0px;
+  max-width: 100%;
+}
+
+.rowTopSpace{
+    margin-top:50px;
+}
+
+.nav-tabs > .nav-item > .nav-link.active {
+  border: 1px solid #27ae60;
+  border-radius: 30px;
+  color: #27ae60;
+}
+
+
+.card .card-block {
+  font-weight: lighter;
+  min-height: 190px;
+}
+
+.col-centered{
+     display: flex;
+     align-items: center; /*Horizontally centers content*/
+     justify-content: center; /*Vertically centers content*/
+     flex-direction: column; /* Makes content in div to flow under instead of side by side*/
+}
+
