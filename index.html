@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title></title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <!-- CSS Files -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/now-ui-kit.css" rel="stylesheet" />
+    <link href="assets/css/custom.css" rel="stylesheet" />
+    <link href="assets/css/animate.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.4/cookieconsent.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.4/cookieconsent.min.js"></script>
+
+    <script>
+        window.addEventListener("load", function() {
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#27ae60",
+                        "text": "#ffffff"
+                    },
+                    "button": {
+                        "background": "#2c3e50",
+                        "text": "#ffffff"
+                    }
+                },
+                "theme": "edgeless"
+            })
+        });
+
+    </script>
+
+</head>
+
+<body class="template-page">
+
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-toggleable-md bg-success noRowGap fixed-top navbar-transparent " color-on-scroll="100">
+        <div class="container">
+            <div class="navbar-translate">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar bar1"></span>
+                    <span class="navbar-toggler-bar bar2"></span>
+                    <span class="navbar-toggler-bar bar3"></span>
+                </button>
+                <a class="navbar-brand" href="#" target="_blank">
+                    <img src="assets/img/apl_logo.png" width="600px">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="../assets/img/blurred-image-1.jpg">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="template.html">
+                            <p>HOME</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">
+                            <p>ABOUT US</p>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Join Us
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Associate Membership</a>
+                            <a class="dropdown-item" href="#">Full Membership</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pablo">
+                            <p>CONTACT US</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login-page.html">
+                            <p>Login</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+
+    <div class="wrapper">
+
+
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="assets/img/bg7.jpg" alt="First slide">
+                    <div class="carousel-caption">
+                        <h3 class="">APL CONFERENCE 2017</h3>
+                        <p>This year's APL Annual Conference will be held at The Midland Hotel, 16 Peter Street, Manchester M60 2DS. </p>
+                        <a href="#" class="btn btn-success btn-round " target="_blank">Read More</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="assets/img/header.jpg" alt="Second slide">
+                    <div class="carousel-caption">
+                        <h3 class="">APL- Beginners Course</h3>
+                        <p>Our Beginners Course provides a basic overview of pensions law for those with little or no pensions experience.</p>
+                        <a href="#" class="btn btn-success btn-round " target="_blank">Read More</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="assets/img/bg8.jpg" alt="Third slide">
+                    <div class="carousel-caption">
+                        <h3 class="">Joint session of the APL and ACA</h3>
+                        <a href="#" class="btn btn-success btn-round " target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>
+
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>
+
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+
+        <div class="section section-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col  ">
+                        <i class="fa fa-paperclip fa-2x " aria-hidden="true"></i>
+                        <h4>Documents and Conference Papers</h4>
+                        <p>Produced by our members</p>
+                    </div>
+                    <div class="col ">
+                        <i class="fa fa-calendar fa-2x" aria-hidden="true"></i>
+                        <h4>Events Information</h4>
+                        <p>About upcoming APL event across UK </p>
+                    </div>
+                    <div class="col ">
+                        <i class="fa fa-folder-open-o fa-2x" aria-hidden="true"></i>
+                        <h4>Information about the APL</h4>
+                        <p>How practising pension lawyers can get involved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section  section-grey section-nucleo-icons">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-lg-5 ">
+                        <h2 class="title ">About Us</h2>
+                        <hr>
+                        <h5 class="description ">
+                            The APL is established and run by lawyers who specialise in UK pensions law. It is non-profit making. The APL is currently made up of more than 1100 lawyers who practise pensions law in the UK, many of whom are leading individuals in the field.
+                        </h5>
+                        <!-- <div class="nucleo-container">
+							<img src="assets/img/nucleo.svg" alt="">
+						</div> -->
+                        <a href="about-us.html" class="btn btn-success btn-round " target="_blank">Read More</a>
+                    </div>
+
+                    <div class="col-lg-2"></div>
+
+                    <div class="col-lg-5 ">
+                        <p class="category">Latest APL updates</p>
+                        <!-- Nav tabs -->
+                        <div class="card-plain">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#home" role="tab" aria-expanded="false">
+                                        <i class="fa fa-newspaper-o" aria-hidden="true"></i> News
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#profile" role="tab" aria-expanded="false">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i> Events
+                                    </a>
+                                </li>
+
+                            </ul>
+                            <div class="card-block">
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div class="tab-pane" id="home" role="tabpanel" aria-expanded="false">
+                                        <p>I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it’s supposed to be pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
+                                    </div>
+                                    <div class="tab-pane" id="profile" role="tabpanel" aria-expanded="false">
+                                        <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
+                                    </div>
+                                    <div class="tab-pane" id="messages" role="tabpanel" aria-expanded="false">
+                                        <p>I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it’s supposed to be pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
+                                    </div>
+                                    <div class="tab-pane active" id="settings" role="tabpanel" aria-expanded="true">
+                                        <p>
+                                            "I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at."
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section section-green">
+
+            <div class="container desc">
+
+                <div class="row ">
+                    <p>To find out what events are coming up, please go to the <a href="#">Forthcoming events</a> page, where you can also find registration forms for events which catch your interest. </p>
+
+                    <p>The Library contains speaker texts and slides from annual and summer conferences, evening seminars and case law forums (including those organised by the regional groups) going back almost 30 years, as well as correspondence, articles, a full set of Pension Lawyer and the entire 'Information to Members' service. </p>
+
+                    <p>All documents are available in high quality, searchable pdf. Just click on the <a href="#">Library</a> and use the search engine to find what you are looking for.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <footer class="footer">
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="http://apl.org.uk/">
+                                Association Of Pension Lawyers
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </nav>
+                <div class="copyright">
+                    &copy;
+                    <script>
+                        document.write(new Date().getFullYear())
+
+                    </script>, Copyright
+                    <a href="template.html" target="_blank">APL</a>. Coded by
+                    <a href="https://www.kingstonsmith.co.uk/services/business-outsourced-solutions/association-management/" target="_blank">KSAM</a>.
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<!--   Core JS Files   -->
+<script src="assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="assets/js/core/tether.min.js" type="text/javascript"></script>
+<script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+<script src="assets/js/plugins/bootstrap-switch.js"></script>
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+<!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+<script src="assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+<!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+<script src="assets/js/now-ui-kit.js" type="text/javascript"></script>
+<script src="assets/js/wow.min.js" type="text/javascript"></script>
+<script src="assets/js/core/custom.js" type="text/javascript"></script>
+
+
+</html>
