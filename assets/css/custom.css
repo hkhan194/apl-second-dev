@@ -2,6 +2,14 @@
    margin-bottom: 0 !important;
 }
 
+.breadcrumb {
+  background-color: #eceeef;
+    border-radius: 0px;
+  list-style: outside none none;
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+}
+
 .carousel img {  
   min-width: 100%;
   height: 950px;
@@ -14,6 +22,12 @@ i{
 p {
   font-weight: lighter;
   line-height: 1.5em;
+}
+
+.sectionSmall {
+  background: #ffffff none repeat scroll 0 0;
+  padding: 30px 0;
+  position: relative;
 }
 
 .section-grey{
@@ -29,12 +43,30 @@ p {
     color: #ffffff;
 }
 
+.section-gradient{
+   background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #ffffff;
+
+}
+
 .section-noPadding{
     padding:0px;
 }
 
 .desc{
     font-size:18px;
+}
+
+a.navy{
+    color: #2c3e50;
+}
+
+a.navy:hover{
+    color: #ecf0f1;
+    transition: 0.3s;
 }
 
 .carousel-caption {
@@ -55,7 +87,7 @@ p {
 }
 
 .profile-page .page-header {
-  min-height: 400px;
+  min-height: 0px;
 }
 
 .profile-page .description, .profile-page .category {
@@ -83,6 +115,13 @@ p {
   min-height: 190px;
 }
 
+.card-block .sidebar {
+  -moz-box-flex: 1;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+    background-color:#ecf0f1; 
+}
+
 .col-centered{
      display: flex;
      align-items: center; /*Horizontally centers content*/
@@ -102,9 +141,9 @@ p {
 }
 
 .landing-header {
-  background-image: url(../img/bg11.jpg);
+  background-image: url("../img/bg11.jpg");
   background-size: cover;
-  min-height: 70vh;
+  min-height: 55vh;
 }
 
 .landing-header .motto {
@@ -117,3 +156,84 @@ p {
   color: #ffffff;
   text-shadow: -1px 2px 2px rgb(38, 38, 38);
 }
+
+.card {
+  border: 0 none;
+  border-radius: 0px;
+  background-color: #f2f2f2;
+    box-shadow: none;
+  display: inline-block;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+textarea.form-control {
+    border: 1px solid #b3b3b3;
+    border-radius: 0;
+    line-height: 2;
+    max-width: 100%;
+    padding: 15px 15px 0 0;
+    resize: none;
+}
+.form-control {
+    background-color: transparent;
+    border: 1px solid #b3b3b3;
+    border-radius: 30px;
+    box-shadow: none;
+    color: #2c2c2c;
+    font-size: 0.8571em;
+    line-height: 1em;
+    transition: color 0.3s ease-in-out 0s, border-color 0.3s ease-in-out 0s, background-color 0.3s ease-in-out 0s;
+}
+
+form.contact-Form{
+    padding:20px;
+    background-color: #fff;
+}
+
+.form-control:focus {
+  border: 1px solid #27ae60;
+  box-shadow: none;
+  color: #2c2c2c;
+  outline: 0 none;
+}
+
+
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#cccccc !important;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+.pagination.pagination-primary .page-item.active > .page-link, .pagination.pagination-primary .page-item.active > .page-link:focus, .pagination.pagination-primary .page-item.active > .page-link:hover {
+  background-color: #27ae60;
+  border-color: #27ae60;
+}
+
+.list-group-item.active {
+  background-color: #27ae60;
+  border-color: #27ae60;
+  color: #fff;
+  z-index: 2;
+}
+
+.list-group-item:first-child {
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 0rem;
+}
+
+

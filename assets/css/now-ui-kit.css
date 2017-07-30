@@ -1347,10 +1347,9 @@
 
 textarea.form-control {
   max-width: 100%;
-  padding: 10px 10px 0 0;
+  padding: 15px 15px 0 0;
   resize: none;
-  border: none;
-  border-bottom: 1px solid #E3E3E3;
+  border: 1px solid #E3E3E3;
   border-radius: 0;
   line-height: 2; }
 textarea.form-control:focus, textarea.form-control:active {
@@ -3050,7 +3049,7 @@ Created using IcoMoon - icomoon.io
   margin-bottom: 15px; }
 .profile-page .button-container {
   text-align: center;
-  margin-top: -99px; }
+  margin-top: -90px; }
 .profile-page .collections img {
   margin-bottom: 30px; }
 .profile-page .gallery {
@@ -3496,17 +3495,13 @@ Created using IcoMoon - icomoon.io
     -o-transform: translate3d(0px, 0, 0);
     -ms-transform: translate3d(0px, 0, 0);
     transform: translate3d(0px, 0, 0); }
+    
   .navbar-collapse:before {
-    background: #f96332;
-    /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#f96332 0%, #000 80%);
-    /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#f96332 0%, #000 80%);
-    /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#f96332 0%, #000 80%);
-    /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#f96332 0%, #000 80%);
-    /* Standard syntax (must be last) */
+   background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
     opacity: 0.76;
     filter: alpha(opacity=76);
     display: block;
@@ -3517,6 +3512,7 @@ Created using IcoMoon - icomoon.io
     top: 0;
     left: 0;
     z-index: -1; }
+    
   .navbar-collapse .navbar-nav:not(.navbar-logo) .nav-link {
     margin: 0 1rem;
     color: #FFFFFF; }
